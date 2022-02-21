@@ -1,0 +1,17 @@
+.form-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 60px;
+    background-color: black;
+    color: white;
+}
+
+.button:hover {
+    border: red 3px solid ;
+}
