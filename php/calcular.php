@@ -4,7 +4,7 @@ $perimetro = $_POST["peri"];
 $apotema = $_POST["apot"];
 
 if(isset($perimetro) &&  isset($apotema) && is_numeric($perimetro) && is_numeric($apotema)){
-    $area = ($perimetro * $apotema) / 2;
+    $area = 4*$perimetro*$apotema;
 } else {
     $area = "Solo se permite el ingreso de numeros";
 }
