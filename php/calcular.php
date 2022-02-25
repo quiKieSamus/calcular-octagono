@@ -1,5 +1,6 @@
 <?php
 
+//la variable $perimetro en realidad es para el lado
 $perimetro = $_POST["peri"];
 $apotema = $_POST["apot"];
 
